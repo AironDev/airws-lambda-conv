@@ -9,6 +9,7 @@ module.exports.handler = async event => {
   const message = `File is uploaded in - ${bucket} -> ${filename}`;
   console.log(message);
 
+// sd
   var params = {
     Bucket: process.env.SOURCE_BUCKET,
     //Key: data.document.s3Key
