@@ -1,6 +1,6 @@
 const { readFileSync, writeFileSync } = require('fs');
 const { convertTo } = require('@shelf/aws-lambda-libreoffice');
-
+// 
 module.exports.handler = async event => {
  
   console.log("Incoming Event: ", event);
